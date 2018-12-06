@@ -20,6 +20,7 @@ int main(int argc, char const *argv[]) {
     getline(f, ogstring);
 
     for (char c : "abcdefghijklmnopqrstuvwxyz") {
+        // for (char c : "") {
         // remove letters
         str = ogstring;
         auto compfunc = [&c](char cmpc) {
